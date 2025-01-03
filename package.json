@@ -1,17 +1,28 @@
 {
   "name": "errsole-dynamodb",
   "version": "1.0.0",
-  "description": "",
+  "description": "Dynamodb storage plugin for Errsole",
   "main": "lib/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "errsole",
+    "dynamodb",
+    "log",
+    "logs",
+    "logging",
+    "logger"
+  ],
+  "license": "MIT",
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.716.0",
     "@aws-sdk/lib-dynamodb": "^3.716.0",
-    "node-cron": "^3.0.3"
-  }
+    "bcryptjs": "^2.4.3"
+  },
+  "files": [
+    "lib",
+    "types"
+  ]
 }
